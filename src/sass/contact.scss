@@ -1,0 +1,34 @@
+.banner-contact{
+    #banner-img{
+        background-image: url(../images/banner-contact.jpg);
+    }
+}
+
+.contact-form{
+    form{
+        gap:20px;
+        .form-control{
+            width:60%;
+        }
+    }
+}
+
+.contact-us{
+    #contact-info{
+        svg{
+            color:$main-color;
+            margin-left: 5px;
+        }
+    }
+
+    input[type=email]{
+        text-align: right !important;
+    }
+    .contact-form{
+        h2{
+            @media(max-width:767px){
+                margin-top: 50px;
+            }
+        }
+    }
+}

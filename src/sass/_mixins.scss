@@ -1,0 +1,26 @@
+@mixin button($color, $text-color){
+    padding:10px 20px;
+    color:$text-color !important;
+    border:1px solid $main-color !important;
+    font-weight: bold !important;
+    border-radius: 2px;
+    &:hover,
+    &:focus{
+        color:$color !important;
+        background-color: $main-color !important;
+        border:1px solid $bg-color !important;
+    }
+}
+
+
+@mixin btn-large($bg-color, $color) {
+    padding:20px;
+    background-color:$bg-color;
+    color: $color;
+    font-weight: bold;
+    width:250px;
+}
+
+@mixin border {
+    border-top: 3px solid $bg-alt-color;
+}
